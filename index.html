@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Landing Page </h1>
+    </header>
+
+    <main>
+      <button onclick="alert('Welcome to My Landing Page!')">
+        Show Welcome Message
+      </button>
+
+      <button
+        onclick="var name = prompt('What is your name?'); alert('Hello, ' + name + '!');"
+      >
+        Show Personalized Greeting
+      </button>
+
+      <button
+        onclick="
+      var firstName = prompt('Enter your First Name:');
+      var lastName = prompt('Enter your Last Name:');
+      var hobby = prompt('Enter your Favorite Hobby:');
+      alert('Full Name: ' + firstName + ' ' + lastName + '\nMy Favorite Hobby is: ' + hobby);
+    "
+      >
+        Show User Information
+      </button>
+    </main>
+
+    <footer>
+      <p>© 2024 Hooria_Codehub</p>
+    </footer>
+  </body>
+</html>
